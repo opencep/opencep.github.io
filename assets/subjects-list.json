@@ -1,53 +1,56 @@
-[
-    {
-        "title": "title",
-        "description": "desc",
-        "image": "img",
-        "actions": [
-            {
-                "title": "Action Title",
-                "path": "lazy"
-            }
-        ]
-    },{
-        "title": "title",
-        "description": "desc",
-        "image": "img",
-        "actions": [
-            {
-                "title": "Action Title",
-                "path": "lazy"
-            }
-        ]
-    },{
-        "title": "title",
-        "description": "desc",
-        "image": "img",
-        "actions": [
-            {
-                "title": "Action Title",
-                "path": "lazy"
-            }
-        ]
-    },{
-        "title": "title",
-        "description": "desc",
-        "image": "img",
-        "actions": [
-            {
-                "title": "Action Title",
-                "path": "lazy"
-            }
-        ]
-    },{
-        "title": "title",
-        "description": "desc",
-        "image": "img",
-        "actions": [
-            {
-                "title": "Action Title",
-                "path": "lazy"
-            }
-        ]
-    }
-]
+{
+    "subTitle": "OpenCEP does allow you to learn and practice at your own pace. You may not know that OpenCEP covers an astounding array of subjects. To see an extensive list of topics covered go to the topics tab at the top of the page.",
+    "children":[
+        {
+            "title": "title",
+            "description": "desc",
+            "image": "img",
+            "actions": [
+                {
+                    "title": "Action Title",
+                    "path": "lazy"
+                }
+            ]
+        },{
+            "title": "title",
+            "description": "desc",
+            "image": "img",
+            "actions": [
+                {
+                    "title": "Action Title",
+                    "path": "lazy"
+                }
+            ]
+        },{
+            "title": "title",
+            "description": "desc",
+            "image": "img",
+            "actions": [
+                {
+                    "title": "Action Title",
+                    "path": "lazy"
+                }
+            ]
+        },{
+            "title": "title",
+            "description": "desc",
+            "image": "img",
+            "actions": [
+                {
+                    "title": "Action Title",
+                    "path": "lazy"
+                }
+            ]
+        },{
+            "title": "title",
+            "description": "desc",
+            "image": "img",
+            "actions": [
+                {
+                    "title": "Action Title",
+                    "path": "lazy"
+                }
+            ]
+        }
+    ]
+}
