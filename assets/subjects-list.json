@@ -2,55 +2,66 @@
     "subTitle": "OpenCEP does allow you to learn and practice at your own pace. You may not know that OpenCEP covers an astounding array of subjects. To see an extensive list of topics covered go to the topics tab at the top of the page.",
     "children":[
         {
-            "title": "title",
-            "description": "desc",
+            "title": "General Knowledge",
+            "description": "General Knowledge questions and answers for Competitive exam preparation and Interview.",
             "image": "img",
             "actions": [
                 {
-                    "title": "Action Title",
-                    "path": "lazy"
+                    "title": "Take a test",
+                    "path": "/preparation/generalknowledge"
                 }
             ]
         },{
-            "title": "title",
-            "description": "desc",
+            "title": "History",
+            "description": "General Knowledge questions and answers for Competitive exam preparation and Interview.",
             "image": "img",
             "actions": [
                 {
-                    "title": "Action Title",
-                    "path": "lazy"
+                    "title": "Take a test",
+                    "path": "/preparation/history"
                 }
             ]
         },{
-            "title": "title",
-            "description": "desc",
+            "title": "Geography",
+            "description": "General Knowledge questions and answers for Competitive exam preparation and Interview.",
             "image": "img",
             "actions": [
                 {
-                    "title": "Action Title",
-                    "path": "lazy"
+                    "title": "Take a test",
+                    "path": "/preparation/geography"
                 }
             ]
         },{
-            "title": "title",
-            "description": "desc",
+            "title": "Aptitude",
+            "description": "General Knowledge questions and answers for Competitive exam preparation and Interview.",
             "image": "img",
             "actions": [
                 {
-                    "title": "Action Title",
-                    "path": "lazy"
+                    "title": "Take a test",
+                    "path": "/preparation/aptitude"
                 }
             ]
         },{
-            "title": "title",
-            "description": "desc",
+            "title": "Science",
+            "description": "General Knowledge questions and answers for Competitive exam preparation and Interview.",
             "image": "img",
             "actions": [
                 {
-                    "title": "Action Title",
-                    "path": "lazy"
+                    "title": "Take a test",
+                    "path": "/preparation/science"
+                }
+            ]
+        },{
+            "title": "English",
+            "description": "General Knowledge questions and answers for Competitive exam preparation and Interview.",
+            "image": "img",
+            "actions": [
+                {
+                    "title": "Take a test",
+                    "path": "/preparation/english"
                 }
             ]
         }
+
     ]
 }
