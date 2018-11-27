@@ -1,0 +1,47 @@
+{
+    "subTitle": "Looking to change your Jobs. These are the Interview Questions you should know to nail the best job opportunities. This section has been designed specially to get you acquainted with the nature of questions you may encounter during your interview ",
+    "children": [
+        {
+            "title": "Is Node a single threaded application?",
+            "description": "Yes! Node uses a single threaded model with event looping. ",
+            "image": "img"
+        }, {
+            "title": "What is REPL in context of Node?",
+            "description": "REPL stands for Read Eval Print Loop and it represents a computer environment like a window console or unix/linux shell where a command is entered and system responds with an output. Node.js or Node comes bundled with a REPL environment. It performs the following desired tasks. <br><br><b>Read</b> − Reads user's input, parse the input into JavaScript data-structure and stores in memory.<br> <b>Eval</b> − Takes and evaluates the data structure <br> <b>Print</b> − Prints the result<br><b>Loop</b> − Loops the above command until user press ctrl-c twice.",
+            "image": ""
+        }, {
+            "title": "What is the difference of using var and not using var in REPL while dealing with variables?",
+            "description": "Use variables to store values and print later. if var keyword is not used then value is stored in the variable and printed. Whereas if var keyword is used then value is stored but not printed. You can use both variables later.",
+            "image": ""
+        }, {
+            "title": "",
+            "description": "",
+            "image": ""
+        }, {
+            "title": "",
+            "description": "",
+            "image": ""
+        }, {
+            "title": "",
+            "description": "",
+            "image": ""
+        }, {
+            "title": "",
+            "description": "",
+            "image": ""
+        }, {
+            "title": "",
+            "description": "",
+            "image": ""
+        }, {
+            "title": "",
+            "description": "",
+            "image": ""
+        }, {
+            "title": "",
+            "description": "",
+            "image": ""
+        }
+
+    ]
+}
