@@ -11,6 +11,17 @@
                     "path": "/interview-nodejs"
                 }
             ]
+        }, 
+        {
+            "title": "Express JS",
+            "description": "Express, is a web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs.  ",
+            "image": "img",
+            "actions": [
+                {
+                    "title": "View Interview Questions",
+                    "path": "/interview-expressjs"
+                }
+            ]
         }
     ]
 }

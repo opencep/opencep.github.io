@@ -14,12 +14,12 @@
             "description": "Use variables to store values and print later. if var keyword is not used then value is stored in the variable and printed. Whereas if var keyword is used then value is stored but not printed. You can use both variables later.",
             "image": ""
         }, {
-            "title": "",
-            "description": "",
+            "title": "How can you avoid callback hells in Javascript?",
+            "description": "<ul>    <li><strong>modularization</strong>: break callbacks into independent functions</li>    <li>use a&nbsp;<strong>control flow library</strong>, like&nbsp;<a href='https://www.npmjs.com/package/async'>async</a></li>    <li>use&nbsp;<strong>generators with Promises</strong></li>    </ul>",
             "image": ""
         }, {
-            "title": "",
-            "description": "",
+            "title": "What are Promises?",
+            "description": "<p>Promises are a concurrency primitive, first described in the 80s. Now they are part of most modern programming languages to make your life easier. Promises can help you better handle async operations.</p><p>An example can be the following snippet, which after 100ms prints out the&nbsp;<code>result</code>&nbsp;string to the standard output. Also, note the&nbsp;<code>catch</code>, which can be used for error handling. Promises are chainable.</p><pre><code>new Promise((resolve, reject) =&gt; { setTimeout(() =&gt; { resolve('result') }, 100)}) .then(console.log) .catch(console.error)</code></pre>",
             "image": ""
         }, {
             "title": "",
