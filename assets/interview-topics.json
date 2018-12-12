@@ -22,6 +22,17 @@
                     "path": "/interview-expressjs"
                 }
             ]
+        }, 
+        {
+            "title": "Angular 2.0+",
+            "description": "AngularJS is a JavaScript-based open-source front-end web application framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications.  ",
+            "image": "img",
+            "actions": [
+                {
+                    "title": "View Interview Questions",
+                    "path": "/interview-angular2"
+                }
+            ]
         }
     ]
 }

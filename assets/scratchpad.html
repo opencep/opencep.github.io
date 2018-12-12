@@ -1,39 +1,26 @@
+A promise is a method that eventually produces a value. Instead of passing a function as argument as with callbacks, “Once
+the result is received from an asynchronous operation then the required function is executed”. The required functions are
+never passed as arguments to the asynchronous operation. It has the form:
+
 <script>
-///app.js
-const cluster = require('cluster');
-const http = require('http');
-const numCPUs = require('os').cpus().length;
+callAsyncFunction()
+    .then(firstFunction)
+    .then(secondFunction)
+    .then(thirdFunction)
+    .then(fourthFunction);
 
-if (cluster.isMaster) {
-    masterProcess();
-} else {
-    childProcess();
-}
+</script> Same thing using callbacks
 
-function masterProcess() {
-    console.log(`Master ${process.pid} is running`);
-    for (let i = 0; i < numCPUs; i++) {
-        console.log(`Forking process number ${i}...`);
-        cluster.fork();
-    }
-    process.exit();
-}
-
-function childProcess() {
-    console.log(`Worker ${process.pid} started and finished`);
-    process.exit();
-}
-
-
-//node app.js
-
-// Master 8463 is running
-// Forking process number 0...
-// Forking process number 1...
-// Forking process number 2...
-// Forking process number 3...
-// Worker 8464 started and finished
-// Worker 8465 started and finished
-// Worker 8467 started and finished
-// Worker 8466 started and finished    
-</script>
+<script>
+callAsyncFunction(function (err, result) {
+    firstFunction(err1, result, function (result2) {
+        secondFunction(err2, result2, function (result3) {
+            thirdFunction(err3, result3, function (result4) {
+                fourthFunction(err4, result4){
+                    //Final code here 
+                });
+            });
+        });
+    });
+});
+</script> P.S. This pyramid like code structure depicts a Callback Hell. It can make debugging very difficult in large projects.
