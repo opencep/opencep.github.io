@@ -2,8 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>http://opencep.com</loc>
-      <lastmod>2005-01-01</lastmod>
-      <changefreq>monthly</changefreq>
+      <lastmod>2018-12-12</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>http://opencep.com/home</loc>
+      <lastmod>2018-12-12</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>http://opencep.com/about</loc>
+      <lastmod>2018-12-12</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.1</priority>
+   </url>
+   <url>
+      <loc>http://opencep.com/topics</loc>
+      <lastmod>2018-12-12</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>http://opencep.com/software</loc>
+      <lastmod>2018-12-12</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>http://opencep.com/interview-nodejs</loc>
+      <lastmod>2018-12-12</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>http://opencep.com/interview-expressjs</loc>
+      <lastmod>2018-12-12</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>http://opencep.com/interview-angular2</loc>
+      <lastmod>2018-12-12</lastmod>
+      <changefreq>weekly</changefreq>
       <priority>0.8</priority>
    </url>
 </urlset>
