@@ -1,26 +1,6 @@
-A promise is a method that eventually produces a value. Instead of passing a function as argument as with callbacks, “Once
-the result is received from an asynchronous operation then the required function is executed”. The required functions are
-never passed as arguments to the asynchronous operation. It has the form:
-
-<script>
-callAsyncFunction()
-    .then(firstFunction)
-    .then(secondFunction)
-    .then(thirdFunction)
-    .then(fourthFunction);
-
-</script> Same thing using callbacks
-
-<script>
-callAsyncFunction(function (err, result) {
-    firstFunction(err1, result, function (result2) {
-        secondFunction(err2, result2, function (result3) {
-            thirdFunction(err3, result3, function (result4) {
-                fourthFunction(err4, result4){
-                    //Final code here 
-                });
-            });
-        });
-    });
-});
-</script> P.S. This pyramid like code structure depicts a Callback Hell. It can make debugging very difficult in large projects.
+@Injectable()
+ export class classname {
+}
+@Component ({
+    providers : [classname]
+})
